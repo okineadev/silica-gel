@@ -1,0 +1,43 @@
+{
+	"name": "silica-gel",
+	"version": "0.0.0",
+	"main": "src/index.ts",
+	"module": "src/index.ts",
+	"private": true,
+	"author": {
+		"name": "Okinea Dev",
+		"url": "https://okinea.dev"
+	},
+	"bugs": {
+		"url": "https://github.com/okineadev/silica-gel/issues"
+	},
+	"license": "MIT",
+	"description": "DESICCANT SILICA GEL THROW AWAY \"DO NOT EAT\"",
+	"keywords": ["silica-gel", "jokes"],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/okineadev/silica-gel"
+	},
+	"homepage": "https://github.com/okineadev/silica-gel",
+	"funding": "https://github.com/okineadev/silica-gel?sponsor=1",
+	"scripts": {
+		"lint": "biome check --fix",
+		"format": "biome format --write",
+		"test": "bun test",
+		"build": "bun build ./src/index.ts --minify --outdir ./dist --target browser --footer '// Built with Bun! (https://bun.sh)' --packages=external",
+		"prepare": "husky",
+		"preversion": "bun run format && git add .",
+		"prepublishOnly": "bun run build"
+	},
+	"lint-staged": {
+		"*": "bun run format --no-errors-on-unmatched"
+	},
+	"type": "module",
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"bun-types": "^1.2.2",
+		"changelogen": "^0.5.7",
+		"husky": "^9.1.7",
+		"lint-staged": "^15.4.3"
+	}
+}

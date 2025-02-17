@@ -1,0 +1,11 @@
+{
+	"extends": "./tsconfig.code.json",
+	"compilerOptions": {
+		"composite": true,
+		"lib": ["ESNext"],
+
+		"types": ["bun-types"]
+	},
+
+	"include": ["tests/**/*.ts"]
+}
