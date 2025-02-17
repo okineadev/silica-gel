@@ -1,6 +1,6 @@
 <!-- markdownlint-disable first-line-h1 -->
 
-[![NPM Version](https://img.shields.io/npm/v/silica-gel?logo=npm&logoColor=212121&label=version&labelColor=FAFAFA&color=212121)](https://npmjs.com/package/aboutproject) [![Tests Status](https://img.shields.io/github/actions/workflow/status/okineadev/silica-gel/test.yml?label=tests&labelColor=212121)](https://github.com/okineadev/silica-gel/actions/workflows/test.yml) [![Built with Bun](https://img.shields.io/badge/Built_with-Bun-fbf0df?logo=bun&labelColor=212121)](https://bun.sh) [![Formatted with Biome](https://img.shields.io/badge/Formatted_with-Biome-60a5fa?style=flat&logo=biome&labelColor=212121)](https://biomejs.dev/)
+[![NPM Version](https://img.shields.io/npm/v/@okinea/silica-gel?logo=npm&logoColor=212121&label=version&labelColor=FAFAFA&color=212121)](https://npmjs.com/package/aboutproject) [![Tests Status](https://img.shields.io/github/actions/workflow/status/okineadev/silica-gel/test.yml?label=tests&labelColor=212121)](https://github.com/okineadev/silica-gel/actions/workflows/test.yml) [![Built with Bun](https://img.shields.io/badge/Built_with-Bun-fbf0df?logo=bun&labelColor=212121)](https://bun.sh) [![Formatted with Biome](https://img.shields.io/badge/Formatted_with-Biome-60a5fa?style=flat&logo=biome&labelColor=212121)](https://biomejs.dev/)
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable no-inline-html heading-start-left -->
