@@ -1,5 +1,5 @@
 {
-	"name": "silica-gel",
+	"name": "@okinea/silica-gel",
 	"version": "0.0.0",
 	"main": "src/index.ts",
 	"module": "src/index.ts",

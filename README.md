@@ -17,13 +17,13 @@
 ## 📦 Installation
 
 ```bash
-npm install silica-gel
+npm install @okinea/silica-gel
 ```
 
 ## 🚀 Usage
 
 ```typescript
-import { SILICA_GEL } from 'silica-gel'
+import { SILICA_GEL } from '@okinea/silica-gel'
 
 SILICA_GEL()
 // DESICCANT SILICA GEL THROW AWAY "DO NOT EAT"
