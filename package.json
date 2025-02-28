@@ -35,7 +35,7 @@
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
 		"bun-types": "^1.2.2",
-		"changelogen": "^0.5.7",
+		"changelogen": "^0.6.0",
 		"husky": "^9.1.7",
 		"lint-staged": "^15.4.3"
 	}
